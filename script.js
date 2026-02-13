@@ -28,4 +28,28 @@ let num = document.getElementById("numberInput").value
 }
 
 //Task 3
-function EvenAndOut(){}
+function EvenTask() 
+{
+
+let num = document.getElementById("evennumberInput").value;
+    
+let resultElement = document.getElementById("ResultArea2");
+
+    if (num === "") 
+    {
+        alert("Rəqəm daxil edin!");
+        return;
+    }
+
+
+    if (num % 2 === 0) 
+    {
+        resultElement.innerText = num + " is Even";
+        resultElement.style.color = "green";
+    } 
+    else 
+    {
+        resultElement.innerText = num + " is Odd";
+        resultElement.style.color = "blue";
+    }
+}
