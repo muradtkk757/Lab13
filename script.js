@@ -53,3 +53,30 @@ let resultElement = document.getElementById("ResultArea2");
         resultElement.style.color = "blue";
     }
 }
+
+
+//Task 4
+function TwoNumbersTask()
+{
+
+}
+
+//Task 5
+function SumofTwoNumbers()
+{
+
+}
+
+//Task 6
+function TemperatureConverter()
+{
+
+}
+
+
+
+//Task 7
+function PositiveNegativ()
+{
+
+}
